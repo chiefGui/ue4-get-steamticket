@@ -12,7 +12,7 @@ class IOnlineSubsystem;
  * 
  */
 UCLASS()
-class STRIVE_API AOnlinePlayerController : public APlayerController
+class YOUR_API AOnlinePlayerController : public APlayerController
 {
 	GENERATED_BODY()
 		IOnlineSubsystem* OnlineInterface = IOnlineSubsystem::Get();
